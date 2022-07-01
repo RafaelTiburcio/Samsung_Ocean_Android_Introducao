@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         // Buscar o botão pelo ID
         val btEnviar = findViewById<Button>(R.id.btEnviar)
-        val tvResultado = findViewById<TextView>(R.id.ConstraintLayout)
+        val tvResultado = findViewById<TextView>(R.id.tvResultado)
         val etNome = findViewById<EditText>(R.id.etNome )
 
 

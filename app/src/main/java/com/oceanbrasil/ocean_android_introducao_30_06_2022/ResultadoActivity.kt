@@ -15,7 +15,7 @@ class ResultadoActivity : AppCompatActivity() {
 
         val nomeDigitado = intent.getStringExtra("NOME_DIGITADO")
 
-        val tvResultado = findViewById<TextView>(R.id.ConstraintLayout)
+        val tvResultado = findViewById<TextView>(R.id.tvResultado)
 
         tvResultado.text = nomeDigitado
 
