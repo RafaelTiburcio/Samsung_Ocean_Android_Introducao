@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         // Buscar o botão pelo ID
         val btEnviar = findViewById<Button>(R.id.btEnviar)
-        val tvResultado = findViewById<TextView>(R.id.tvResultado)
+        val tvResultado = findViewById<TextView>(R.id.ConstraintLayout)
         val etNome = findViewById<EditText>(R.id.etNome )
 
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             val nomeDigitado = etNome.text
 
             if (nomeDigitado.isBlank()) {
-                etNome.error = "Digite um nome Válido"
+                etNome.error = getString(R.string.type_a_valid_name)
             } else {
                 tvResultado.text = nomeDigitado
             }
